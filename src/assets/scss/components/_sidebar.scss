@@ -60,12 +60,11 @@
     }
 
     .menu {
-        padding-left: 0;
         margin-top: 2rem;
-        padding: 0 2rem;
+        padding: 0 if($menu-full-width, 2rem, 0);
         font-weight: 600;
         .sidebar-title {
-            padding: 0 1rem;
+            padding: 0 if($menu-full-width, 1rem, 2rem);
             margin: 1.5rem 0 1rem;
             font-size: 1rem;
             list-style: none;
@@ -74,12 +73,11 @@
         }
         
         .sidebar-link {
-            display: block;
-            padding: .7rem 1rem;
+            padding: .7rem if($menu-full-width, 1rem, 1.5rem);
             font-size: 1rem;
             display: flex;
             align-items: center;
-            border-radius: .5rem;
+            border-radius: if($enable-rounded, .5rem, 0);
             transition: all .5s;
             text-decoration: none;
             color: $sidebar-link-color;
@@ -148,7 +146,7 @@
                     }
                 }
                 a {
-                    padding: .7rem 2rem;
+                    padding: .7rem if($menu-full-width, 2rem, 1.5rem);
                     display: block;
                     color: $sidebar-submenu-color;
                     font-size: .85rem;

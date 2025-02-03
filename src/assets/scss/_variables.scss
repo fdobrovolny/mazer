@@ -370,8 +370,8 @@ $escaped-characters: (
 // Quickly modify global styling by enabling or disabling optional features.
 
 $enable-caret:                true !default;
-$enable-rounded:              true !default;
-$enable-shadows:              false !default;
+$enable-rounded:              false !default;
+$enable-shadows:              true !default;
 $enable-gradients:            false !default;
 $enable-transitions:          true !default;
 $enable-reduced-motion:       true !default;
@@ -388,6 +388,9 @@ $enable-important-utilities:  true !default;
 
 $enable-dark-mode:            true !default;
 $color-mode-type:             data; // `data` or `media-query`
+
+// MENU
+$menu-full-width:             false !default;
 
 // Prefix for :root CSS variables
 
