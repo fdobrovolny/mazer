@@ -62,9 +62,9 @@
     "rater-js": "^1.0.1",
     "rtlcss": "^4.0.0",
     "simple-datatables": "^4.0.8",
-    "summernote": "0.8.20",
+    "summernote": "^0.9.1",
     "sweetalert2": "^11.7.12",
-    "tinymce": "^6.7.1",
+    "tinymce": "^6.8.5",
     "toastify-js": "^1.12.0"
   },
   "devDependencies": {
@@ -78,7 +78,7 @@
     "resolve-url-loader": "^5.0.0",
     "sass": "^1.67.0",
     "sass-loader": "^13.2.0",
-    "vite": "5.0.2",
+    "vite": "5.4.14",
     "vite-plugin-nunjucks": "^0.2.0",
     "vite-plugin-static-copy": "^0.13.1"
   },
